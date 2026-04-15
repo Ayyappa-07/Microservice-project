@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/Ayyappa-07/Microservice-project.git'
-            }
-        }
-
         stage('Build User Service') {
             steps {
                 sh 'cd microservice && npm install'
