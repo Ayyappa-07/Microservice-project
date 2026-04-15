@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/Ayyappa-07/your-repo.git'
+                git 'https://github.com/Ayyappa-07/Microservice-project.git'
             }
         }
 
